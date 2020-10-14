@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [COSACS]]">
+  <listeners>
+    <listener class-name="com.cosacs.PageObject.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="COS05_RegularStock Test(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cosacs.TestCases.COS05_RegularStock">
+        <methods>
+          <include name="ProductDetails"/>
+          <include name="ProductEnquiry"/>
+          <include name="close"/>
+          <include name="CreateRegularStock"/>
+          <include name="RegularStocks"/>
+          <include name="launchChrome"/>
+        </methods>
+      </class> <!-- com.cosacs.TestCases.COS05_RegularStock -->
+    </classes>
+  </test> <!-- COS05_RegularStock Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [COSACS]] -->

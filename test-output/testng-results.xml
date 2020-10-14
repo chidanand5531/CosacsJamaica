@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="COSACS" duration-ms="64915" started-at="2020-10-08T05:34:48Z" finished-at="2020-10-08T05:35:53Z">
+    <groups>
+    </groups>
+    <test name="COS01_LocationCreation Test" duration-ms="27659" started-at="2020-10-08T05:34:48Z" finished-at="2020-10-08T05:35:15Z">
+      <class name="com.cosacs.TestCases.COS01_LocationCreation">
+        <test-method status="PASS" signature="launchChrome(java.lang.String)[pri:0, instance:com.cosacs.TestCases.COS01_LocationCreation@2df32bf7]" name="launchChrome" is-config="true" duration-ms="6977" started-at="2020-10-08T05:34:48Z" finished-at="2020-10-08T05:34:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method status="PASS" signature="createLocation_Test()[pri:0, instance:com.cosacs.TestCases.COS01_LocationCreation@2df32bf7]" name="createLocation_Test" duration-ms="12187" started-at="2020-10-08T05:34:55Z" finished-at="2020-10-08T05:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLocation_Test -->
+        <test-method status="PASS" signature="searchLocation_Test()[pri:0, instance:com.cosacs.TestCases.COS01_LocationCreation@2df32bf7]" name="searchLocation_Test" duration-ms="7549" started-at="2020-10-08T05:35:07Z" depends-on-methods="com.cosacs.TestCases.COS01_LocationCreation.createLocation_Test" finished-at="2020-10-08T05:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLocation_Test -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.cosacs.TestCases.COS01_LocationCreation@2df32bf7]" name="close" is-config="true" duration-ms="867" started-at="2020-10-08T05:35:14Z" finished-at="2020-10-08T05:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.cosacs.TestCases.COS01_LocationCreation -->
+    </test> <!-- COS01_LocationCreation Test -->
+    <test name="COS04_LocalVendorCreation Test" duration-ms="36656" started-at="2020-10-08T05:35:16Z" finished-at="2020-10-08T05:35:53Z">
+      <class name="com.cosacs.TestCases.COS04_LocalVendorCreation">
+        <test-method status="PASS" signature="launchChrome(java.lang.String)[pri:0, instance:com.cosacs.TestCases.COS04_LocalVendorCreation@33cb5951]" name="launchChrome" is-config="true" duration-ms="5135" started-at="2020-10-08T05:35:16Z" finished-at="2020-10-08T05:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method status="PASS" signature="createVendor_Test()[pri:0, instance:com.cosacs.TestCases.COS04_LocalVendorCreation@33cb5951]" name="createVendor_Test" duration-ms="22390" started-at="2020-10-08T05:35:21Z" finished-at="2020-10-08T05:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVendor_Test -->
+        <test-method status="PASS" signature="SearchVendor_Test()[pri:0, instance:com.cosacs.TestCases.COS04_LocalVendorCreation@33cb5951]" name="SearchVendor_Test" duration-ms="8301" started-at="2020-10-08T05:35:43Z" depends-on-methods="com.cosacs.TestCases.COS04_LocalVendorCreation.createVendor_Test" finished-at="2020-10-08T05:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchVendor_Test -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.cosacs.TestCases.COS04_LocalVendorCreation@33cb5951]" name="close" is-config="true" duration-ms="824" started-at="2020-10-08T05:35:52Z" finished-at="2020-10-08T05:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.cosacs.TestCases.COS04_LocalVendorCreation -->
+    </test> <!-- COS04_LocalVendorCreation Test -->
+  </suite> <!-- COSACS -->
+</testng-results>

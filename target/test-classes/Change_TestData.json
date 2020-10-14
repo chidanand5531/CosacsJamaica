@@ -1,0 +1,33 @@
+{
+	"locationData": {
+		"LocationId": "95645",
+		"SalesSystemId": "699",
+		"Name": "SINDEYTOWN"
+	},
+	"ProductHeirarchy": {
+		"Dev": "REMSA",
+		"Dept": "SAMJA",
+		"Class": "RIZMA"
+	},
+	"vendordata": {
+		"vendorcode": "201695",
+		"vendorName": "LUCKY DOLLAR TRADERS"
+	},
+		"RegularStock": {
+		"SKUnit":"HD00036"
+	},
+	"NonStockProductCreation": {
+		"SKUNo":"402251",
+		"CostPrice":"10005",
+		"RetailPrice":"5050"
+	},
+	"stockCountData": {
+		"Location_Name":"LUCKY DOLLAR SPANISH"
+
+	},
+	"ExtendedWarranty": {
+		"ItemNbr":"B0294",
+		"Free":"B0294M"
+	}
+}	
+}
